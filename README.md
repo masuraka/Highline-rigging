@@ -14,9 +14,12 @@ Repo for the static website highline-rigging.neocities.org hosted on neocities.o
 - ressources-complements.html
 - spots.html
 
-- ### assets : contient les .css
-- ### docs : contient les .pdf et documents
-- ### images : contient les .png 
+- ### assets :
+   contient les .css
+- ### docs :
+  contient les .pdf et documents
+- ### images :
+  contient les .png 
 - ### installation :
   
    - index.html
