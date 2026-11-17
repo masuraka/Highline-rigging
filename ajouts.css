@@ -1,0 +1,10 @@
+/* Feuille de style provisoire : remplacez le <link> par celui de votre site pour reprendre sa charte */
+:root{--fg:#1d2328;--bg:#fff;--mut:#5b6670;--acc:#0b5cab;--line:#d5dbe0;--warn:#fff4d6}
+@media(prefers-color-scheme:dark){:root{--fg:#e8ecef;--bg:#161a1d;--mut:#9aa6b0;--acc:#7fb4ec;--line:#333b42;--warn:#3a3217}}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{font:16px/1.6 system-ui,sans-serif;max-width:46rem;margin:0 auto;padding:1rem;color:var(--fg);background:var(--bg)}
+nav{display:flex;flex-wrap:wrap;gap:.3rem 1rem;border-bottom:1px solid var(--line);padding-bottom:.6rem;margin-bottom:1rem}
+a{color:var(--acc)}h1,h2,h3{line-height:1.25}h2{margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.2rem}
+.warn{background:var(--warn);border-left:4px solid #c98a00;padding:.6rem .9rem;margin:1rem 0}
+.meta{color:var(--mut);font-size:.9rem}
+table{border-collapse:collapse;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:.35rem .6rem;text-align:left}
