@@ -23,7 +23,7 @@ Repo for the static website highline-rigging.neocities.org hosted on neocities.o
 - ### installation :
   
    - index.html
-   - contient controles.html
+   - controles.html
    - noeuds.html
    - noeuds-base.html
    - principes.html
