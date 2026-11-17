@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Contrôles et checklists — Highline Wiki</title><link rel="stylesheet" href="../assets/style.css"></head><body>
+<header class="site-header"><a class="brand" href="index.html">Highline Wiki</a><nav aria-label="Navigation principale" class="site-nav">
+<a href="../index.html">Accueil</a>
+<a href="../installation/index.html">Installation</a>
+<a href="../noeuds.html">Nœuds</a>
+<a href="../ressources.html">Ressources</a>
+<a href="../contact.html">Contact</a>
+</nav></header><h1>Contrôles, checklists et analyse d’un rig</h1>
+<p class="meta">Complément du guide d’installation : vérifier avant, pendant et après.</p>
+<p class="warn"><strong>En construction.</strong> Notes documentaires issues du référentiel Parislack : elles ne remplacent ni une formation pratique encadrée, ni les standards ISA, ni les consignes du fabricant. Gardez une lecture critique et signalez les erreurs.</p>
+<h2>Buddy check (avis ISA) : 5 points</h2>
+<p>Erreurs signalées : nœuds incomplets, nœud pris dans la seule boucle inférieure, sangles du baudrier non repassées, longe attachée à un porte-matériel, mousqueton comme attache principale. Seul : vérifiez-vous 2 ou 3 fois. En groupe : vérifiez-vous, puis faites-vous vérifier.</p>
+<ol><li><strong>Baudrier :</strong> serré au-dessus des hanches, ne glisse pas quand on tire la boucle d’assurage, cuissardes sans torsion, boucles repassées, porte-matériel vide d’objets dangereux.</li>
+<li><strong>Nœud du highliner :</strong> huit passé dans les deux points d’encordement, jamais dans la boucle d’assurage ; queue d’au moins 10 cm ou nœud d’arrêt.</li>
+<li><strong>Anneaux de longe :</strong> acier ou aluminium forgé, inspection au toucher (éraflures, arêtes, impacts).</li>
+<li><strong>Nœud longe–anneaux :</strong> huit, queue d’au moins 10 cm ; revérifier même s’il a été fait le matin.</li>
+<li><strong>Anneaux passés dans la mainline <em>et</em> dans le backup.</strong></li></ol>
+<h2>Checklist Sliding-X</h2>
+<ul><li>Maillons rapides serrés à la clé ; corde correctement passée dans tous les connecteurs ; nœud de jonction adapté.</li>
+<li>Sliding-X bien réalisé : chaque brin a une torsion (entre d’un côté, sort de l’autre).</li>
+<li>Système de backup présent, passant par tous les connecteurs, non extensible.</li>
+<li>Masterpoint redondant : bloque-sangle (weblock, mightylock ou boucle) pour la ligne principale, et un autre pour le backup.</li>
+<li>Connecteurs serrés et bien orientés ; soft release avec nœud anti-glissement fixé aux connecteurs, boucle cousue côté ancrage (recommandé).</li>
+<li>Anti-slip du weblock réalisé et serré ; sangle bien passée par le déviateur ; <strong>pin entièrement engagé, vérifier les billes</strong> ; weblock certifié pour le backup.</li>
+<li>Protection des arêtes (padding) prise en compte.</li></ul>
+<h2>Checklist BFK</h2>
+<p>Mêmes contrôles pour weblocks, connecteurs, soft release, anti-slip, anneaux et padding, plus : le nœud de jonction est facultatif ; sans nœud de jonction, toutes les extrémités ressortent correctement du BFK ; BFK bien réalisé et bien « habillé ». Points dans un plan plutôt horizontal.</p>
+<h2>Valeurs de référence (règles des rigs Parislack)</h2>
+<table><tr><th>Élément</th><th>Valeur</th></tr>
+<tr><td>Masterpoint (ancrage principal)</td><td>MBS ≥ 48 kN</td></tr>
+<tr><td>Ancrage de backup</td><td>MBS ≥ 24 kN</td></tr>
+<tr><td>Force max. visée dans la mainline / le backup à l’impact</td><td>12 kN / 8 kN (à vérifier avec le simulateur ou un dynamomètre)</td></tr>
+<tr><td>Facteur de sécurité visé</td><td>5 sur le matériel ; 3 à 4 sur la sangle</td></tr>
+<tr><td>Soft release</td><td>au moins 5 tours ; au moins 7 m, adapté à la longueur et à la tension</td></tr>
+<tr><td>Élingue de levage (spanset)</td><td>au moins 1 t</td></tr></table>
+<p class="meta">Ce sont des règles internes à une association, pas des normes : vérifiez-les avec les standards ISA et la notice de votre matériel.</p>
+<h2>Méthodes d’analyse</h2>
+<p><strong>SNARE-SANE</strong> : Strength, No abrasion, Redundancy, Equalization, Small angles, No extension. <strong>SERENE</strong> : Strong, Equalized, Redundant, Efficient, No extension. L’acronyme sert de méthode systématique pour ne rien oublier, pas à être récité.</p>
+<h2 id="fmea">FMEA — analyse des modes de défaillance</h2>
+<ol><li>Identifier ce qui peut mal tourner (matériel, ancrages, connexions, environnement, abrasion, erreurs humaines, communication, météo, usage).</li>
+<li>Évaluer les conséquences et les effets en cascade.</li>
+<li>Réduire la probabilité et limiter les conséquences avant que cela n’arrive.</li></ol>
+<h2>Risk assessment</h2>
+<p>Probabilité, gravité, exposition, mesures de mitigation ; facteurs : météo, vent, hauteur, accès, environnement, état des ancrages, abrasion, public, circulation, communication, urgence, évacuation. L’évaluation est dynamique : on la refait quand le contexte change.</p>
+<h2>Démontage : ordre général</h2>
+<p>Évacuer la ligne et vérifier que personne n’en dépend → détendre progressivement (soft release ou système de tension) → déconnecter la principale → retirer le backup en dernier → récupérer les ancrages → contrôler et ranger le matériel. Ne jamais démonter un élément fortement chargé.</p>
+<p><a href="index.html">Guide d’installation</a> · <a href="secours.html">Secours</a> · <a href="../parcours.html">Parcours</a></p>
+</body></html>
